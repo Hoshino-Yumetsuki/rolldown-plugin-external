@@ -4,18 +4,18 @@ import type { Plugin as RolldownPlugin } from 'rolldown'
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
-export const DependencyType = [
+const DependencyType = [
   'dependencies',
   'devDependencies',
   'peerDependencies',
   'optionalDependencies'
 ] as const
 
-export interface PackageJsonExports {
+interface PackageJsonExports {
   [key: string]: string | PackageJsonExports
 }
 
-export interface PackageJson
+interface PackageJson
   extends Partial<
     Record<(typeof DependencyType)[number], Record<string, string>>
   > {
