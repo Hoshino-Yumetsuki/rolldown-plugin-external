@@ -15,13 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hoshino-Yumetsuki/kumoya.git",
-    "directory": "packages/rolldown-plugin-external"
+    "url": "git+https://github.com/Hoshino-Yumetsuki/rolldown-plugin-external.git"
   },
   "bugs": {
-    "url": "https://github.com/Hoshino-Yumetsuki/kumoya/issues"
+    "url": "https://github.com/Hoshino-Yumetsuki/rolldown-plugin-external/issues"
   },
-  "homepage": "https://github.com/Hoshino-Yumetsuki/kumoya",
+  "homepage": "https://github.com/Hoshino-Yumetsuki/rolldown-plugin-external",
   "author": "Q78KG <hoshino-yumetsuki@outlook.com>",
   "license": "MIT",
   "devDependencies": {
